@@ -1,22 +1,24 @@
 body {
-    color:#0f0f0f;
+    color: #0f0f0f;
     background: #FFFFF0;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /*header stlying <h1>*/
+
 header a {
     text-decoration: none;
     color: #FFFAF0;
-  }
+}
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: white;
- }
+}
 
- header {
+header {
     padding: 20px 35px;
     background-color: #1E90FF;
     display: flex;
@@ -28,7 +30,7 @@ header h1 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 80%; 
+    background-position: 80%;
     z-index: 9999;
 }
 
@@ -39,56 +41,99 @@ header nav {
 header nav {
     margin: 7px 0;
 }
-header nav ul{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-list-style: none;
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
 header nav ul li a {
-padding: 10px 15px;
-font-weight: lighter;
-font-size: 1.55vw;
-text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .container {
-height: 80vh;
-margin: 2rem;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-grid-gap: 10px 10px;
+    height: 80vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
 }
- /*footer*/
-#contact{
+
+
+/*footer*/
+
+#contact {
     font-size: 2.5em;
     text-align: center;
     border-style: solid;
- }
+}
 
- .column-layout{
+.column-layout {
     max-width: 1300px;
     margin: 40px auto 0 auto;
     line-height: 1.65;
     padding: 20 px 50 px;
     font-weight: bold;
-    display: flex; 
-    }
+    display: flex;
+}
 
-    .sidebar-one{
-        padding: 20px;
-        background-color: #1E90FF;
-        box-sizing: border-box;
-        margin-bottom: 20px;
-        width: 30%;
-      }
-      
-      .sidebar-two {
-        padding: 20px;
-        background-color: #1E90FF;
-        box-sizing: border-box;
-        margin-bottom: 20px;
-        width: 30%;
-      }
-      
+.sidebar-one {
+    padding: 20px;
+    background-color: #1E90FF;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.sidebar-two {
+    padding: 20px;
+    background-color: #1E90FF;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+
+/* Counter */
+
+.main_container {
+    height: 46px;
+    width: auto;
+    padding: 3px;
+    margin: 2px;
+    max-width: 300px;
+    background-color: #555555;
+    align-content: center;
+}
+
+.container_inner {
+    height: auto;
+    border: none;
+    background-color: #555555;
+    max-width: 290px;
+    vertical-align: center;
+    padding-top: 12px;
+    padding-left: 10px;
+    align-content: center;
+}
+
+.num_tiles {
+    width: 30px;
+    height: 30px;
+    background-color: #888888;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    margin: 1.5px;
+    font-family: verdana;
+    vertical-align: center;
+}
