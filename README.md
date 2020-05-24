@@ -14,7 +14,7 @@ A practice in using html, CSS, and javascript.
 <img src="images/Question.png">
 
 3. Upon completing the quiz, you will be asked to enter your initials to enter high scores.  You also will have the ability to clear the high schores 
-<img src="images/Initial.png">
+<img src="images/Initials.png">
 
 4. You can click on Go Back to go back to the beginning of the quiz. 
 <img src="images/score.png">
