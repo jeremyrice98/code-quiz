@@ -8,7 +8,7 @@ Here is how to use the quiz:
 
 1. Click Start Quiz to begin
 
-<img src="images/front.png"
+<img src="images/front.png">
 
 2. Answer the questions by clicking on the correct answer.  At the bottom, it will tell you whether you are correct or wrong.
 
